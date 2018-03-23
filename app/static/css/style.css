@@ -1,0 +1,209 @@
+body{
+	margin: 0 auto;
+}
+.container-fluid{
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
+.top {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+nav {
+	background-color: #30383b;
+	z-index: 2;
+}
+
+nav h2 {
+	color: #f2c608;
+	font-size: 2rem;
+	font-family: 'Dancing Script', cursive;
+}
+
+.sign{
+	background-color: #30383b;
+	cursor: pointer;
+	border: 1px solid #f2c608;
+	border-radius: 2px;
+	color: #f2c608;
+	transition: 0.8s;
+}
+
+.book{
+	font-family: Helvetica,Arial, sans-serif;
+	font-size: 1.5rem;
+	padding: 5px 20px;
+	border-width: 0px; 
+}
+
+.sign:hover{
+	background-color: #f2c608;
+	color: #30383b;
+	transition: 0.8s;
+}
+
+.image {
+	background-image: url(../img/2.jpeg);
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.50;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	margin: 0 33%;
+	text-align: center;
+	z-index: 3;
+}
+
+.books{
+	position: relative;
+	top: 100%;
+}
+/* 
+
+
+END OF INDEX PAGE CSS
+
+
+*/
+
+.navbar-light .navbar-nav .nav-link {
+	color: #f2c608;
+	transition: 0.8s;
+}
+.col {
+	margin: 1rem;
+}
+
+#booky {
+	background: #f2f2f2;
+}
+
+.boo {
+	height: auto;
+	width: 20%;	
+	text-align: center;
+}
+
+.boo img {
+	width: 90%;
+}
+
+#booky .boo button {
+	padding: 0% 10%;
+	position: absolute;
+	top: 90%;
+	left: 30%;
+}
+
+#booky button:hover {
+	
+}
+
+/*
+
+END OF BOOKS PAGE CSS
+
+*/
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f2f2f2;
+}
+
+.signup{
+	padding: 10px 15px;
+	border-radius: 5px;
+	position: absolute;
+	top: 20%;
+	left: 33%;
+	width: 33%;
+	text-align: center;
+	background: #f2b11b;
+	z-index: 3;
+	color: #30383b;
+}
+
+/*
+
+BEGINNING OF HISTORY PAGE
+
+*/
+
+.para p {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.intro {
+	background-color: #d7801e;
+}
+
+/*
+
+PROFILE PAGE BEGINS HERE
+
+*/
+.prof {
+	margin: 0% 33%;
+	background-position: center;
+	border-radius: 50px;
+	text-align: center;
+}
+.prof img {
+	margin: 2% 0%;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	background-position: center;
+	background-size: cover;
+}
+
+/*
+
+ADMIN PAGE CSS BEGINS HERE
+
+*/
+.board{
+	background-color: #d7801e;
+	height: 100vh;
+	overflow: hidden;
+}
+.dash {
+	background-color: #d7801e;
+	text-align: center;
+}
+.dash ul {
+	padding: 3px 0px;
+	height: 100vh;
+	background-color: #30383b;
+}
+.dash li {
+	border-radius: 5px;
+	border: 1px solid #f2b11b;
+	width: 90%;
+	margin: 2px auto;
+	background-color: #30383b;
+}
+
+.dash a {
+	color: #f2f2f2;
+	transition: 0.7s;
+}
+.dash a:hover{
+	color: #f2c608;
+}
+
